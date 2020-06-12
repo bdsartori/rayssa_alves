@@ -1,0 +1,580 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #fde9e8;
+  color: #333;
+  height: auto;
+}
+
+.flex {
+  display: block;
+}
+
+#nav-bar .container {
+  display:block;
+  margin: 0px;
+  width: auto;
+  height: 308px;
+  padding: 0;
+  overflow: visible;
+}
+
+body {
+  background-color: #333;
+}
+
+#nav-bar {
+  display: block;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+.logo {
+  float: none;
+  text-align: center;
+}
+
+#nav-bar ul {
+  display: block;
+  list-style: none;
+  float: none;
+  width:100%;
+  margin-bottom: 0;
+  height: auto;
+  
+}
+
+#nav-bar ul li {
+  float: none;
+  border-bottom: rgb(121, 121, 121) dotted 1px;
+  height: 25px;
+}
+
+#nav-bar ul li a  {
+  display: block;
+  text-align: center;
+  padding:0;
+  font-size: 0.7rem;
+  width: 100%;
+  text-decoration: none;
+  overflow: visible;
+  height: 25px;
+}
+
+/* Showcase */
+#showcase {
+  height: 220px;
+  padding-top: 100px;
+}
+
+#showcase .container {
+  background: url('../img/taça3.PNG') contain;
+  height: 115px;
+
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  border-radius: 40px;
+  margin: 5px auto;
+  max-width: 1000px;
+  width: auto;
+  height: 107px;
+  background: rgba(252, 246, 234,0.8);
+}
+
+#showcase .showcase-content img {
+  width: 100%;
+  margin: -50px;
+}
+
+#showcase .showcase-content .subtitle {
+  font-size: 0.7rem;
+  color: #333;
+  max-width: 1000px;
+  width: auto;
+  padding: 0;
+  margin: -4px;
+}
+
+#showcase .showcase-content .saiba-mais {
+  padding: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 0.7rem;
+}
+
+#showcase .showcase-content a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Produtos */
+#produtos {
+  margin: 20px;
+  border: #ccc 1px solid;
+  padding-bottom: 30px;
+}
+
+#produtos h1 {
+  text-align: center;
+  margin: 20px;
+  color: #f7c08a;
+  font-family: 'Sofia';
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#produtos h1 img{
+  display: none;
+}
+
+#produtos h2 {
+  display: block;
+  margin:10px;
+  max-height: 80px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  color: #f7c08a;
+  font-size: 1.2em;
+}
+
+#produtos h3 {
+  color: #fde9e8;
+  font-size: 0.9rem;
+}
+
+#produtos p {
+  color: #fff;
+  font-size: 0.8em;
+  line-height: 1rem;
+}
+
+
+.item {
+  margin: 35px;
+  text-align: center;
+  font-size: 1rem;
+  height: auto;
+}
+
+.flex {
+  display: block;
+}
+
+.flex-item-1  {
+  flex: 1;
+}
+
+.img-item {
+  max-width: 250px;
+  width: auto;
+  max-height: 250px;
+  height: 200px;
+  margin: auto;
+}
+
+.item1 {
+  background: url('../img/porta-joias.PNG') no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+.item2 {
+  background: url('../img/barra-de-chocolate.PNG') no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+.item3 {
+  background: url('../img/taça1.PNG') no-repeat center top/cover;
+  border-radius: 5px;
+}
+
+.item4 {
+  background: url('../img/bolo-bombom-cortado.jpeg') no-repeat center center/cover;
+  border-radius: 5px;
+}
+
+/* Title */
+
+#title {
+  height: 100px;
+  font-family: 'Sofia';
+  background: url('../img/calda-2.jpg') center center/cover;
+}
+
+#title h1 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* Recheios */
+#recheios {
+  float: none;
+  width: auto;
+  margin-right: 20px;
+
+}
+
+#recheios .container {
+  margin-right: 10px;
+}
+
+#recheios h1 {
+  padding: 20px;
+  font-family: 'Sofia';
+  font-size: 1.5rem;
+}
+
+#recheios p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #fff;
+}
+
+/* Cores */
+#cores {
+  text-align: center;
+  color: #f7c08a;
+  line-height: 1rem;
+  width: auto;
+  float: none;
+  padding-bottom: 50px;
+  border: #ccc 1px solid;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#cores h1 {
+  padding: 20px;
+  font-family: 'Sofia';
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#cores p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+#cores-cp {
+  text-align: center;
+  color: #f7c08a;
+  line-height: 1rem;
+  width: auto;
+  float: none;
+  padding-bottom: 20px;
+  border: #ccc 1px solid;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#cores-cp h1 {
+  padding: 20px;
+  font-family: 'Sofia';
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+#cores-cp p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+#recheios-barra {
+  text-align: center;
+  color: #f7c08a;
+  line-height: 1rem;
+  padding-bottom: 20px;
+  min-height: 100%;
+  border: #ccc 1px solid;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+#recheios-barra h1 {
+  padding: 10px;
+  font-family: 'Sofia';
+  font-size: 1.5rem;
+}
+
+#recheios-barra p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+
+/* Sobremesas */
+#title-sobremesa {
+  height: 100px;
+  font-family: 'Sofia';
+  background: url('../img/sobremesa-1.jpg') center 20%/cover no-repeat;
+}
+
+#title-sobremesa h1 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/* Caseirinhos */
+
+#title-caseirinho {
+  height: 100px;
+  font-family: 'Sofia';
+  background: url('../img/granulado-chocolate-brigadeiro.png') center center/cover;
+}
+
+#title-caseirinho h1 {
+  display: block;
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#base-bolo {
+  text-align: center;
+  color: #f7c08a;
+  line-height: 1rem;
+  padding-bottom: 30px;
+  width: auto;
+  float: none;
+  min-height: 100%;
+  border: #ccc 1px solid;
+  height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#base-bolo h1 {
+  padding: 20px;
+  font-family: 'Sofia';
+  font-size: 1.5rem;
+}
+
+#base-bolo p {
+  font-size: 0.8rem;
+  color: #fff;
+  padding: 0;
+  margin: 5px;
+}
+
+#cobertura {
+  text-align: center;
+  color: #f7c08a;
+  line-height: 1rem;
+  width: auto;
+  float: none;
+  padding-bottom: 50px;
+  border: #ccc 1px solid;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#cobertura h1 {
+  padding: 20px;
+  font-size: 1.5rem;
+  font-family: 'Sofia';
+  margin-bottom: 10px;
+}
+
+#cobertura p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+/* Linha Zero Açúcar*/
+
+#title-za {
+  height: 100px;
+  font-family: 'Sofia';
+  background: url('../img/morangos.jpg') top center/cover;
+}
+
+#title-za h1 {
+  display: block;
+  padding-top: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Linha Zero Lactose*/
+
+#title-zl {
+  height: 100px;
+  font-family: 'Sofia';
+  background: url('../img/chocolate-beside-raspberry-918328.jpg') center 48%/cover;
+}
+
+#title-zl h1 {
+  display: block;
+  padding-top: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* Sobre */
+
+#sobre .sobre-right {
+  float: none;
+  width: 100%;
+  min-height: 100%;
+  padding-top: 20px;
+}
+
+#sobre .sobre-left {
+  float: none;
+  width: 100%;
+  min-height: 100%;
+}
+
+#sobre {
+  background: #333;
+  color: #f7c08a;
+  padding: 0;
+}
+
+#sobre h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Sofia';
+  font-size: 1.5rem;
+}
+
+#sobre .sobre-left img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 50%;
+}
+
+#sobre p {
+  border: #ccc 1px solid;
+  color: #ccc;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+/* Contato */
+#contato {
+  margin: 20px;
+  color: #fde9e8;
+  border: #ccc 1px solid;
+  
+}
+
+#contato form {
+  margin-left: -20px;
+  margin-right: -20px;
+  width: auto;
+}
+
+
+#contato h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Sofia';
+  font-size: 1.5rem;
+  color: #f7c08a;
+}
+
+#contato label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+#contato input {
+  width: 100%;
+  border: 1px #ddd solid;
+  height: 1.5rem;
+}
+
+#contato textarea {
+  width: 100%;
+  border: 1px #ddd solid;
+}
+
+#contato input:focus, 
+#contato textarea:focus {
+  outline: none;
+  border-color: #fe8386;
+}
+
+
+/*Footer*/
+footer {
+  float: left;
+  position: relative;
+	bottom: 0;
+  background: #fe8386;
+  width: 100%;
+}
+
+#main-footer .contato-footer {
+  color: #333;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+#main-footer .midia {
+  max-width: 600px;
+  width: auto;
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#main-footer h1 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#main-footer .img1 {
+  width: 40px;
+}
+
+#main-footer .img2 {
+  width: 30px;
+}
+
+#main-footer p {
+  font-size: 1rem;
+}
+
+#main-footer a:hover {
+  color: #333;
+}
+
+.rodape {
+  padding: 10px;
+  text-align: center;
+}
+
+.rodape h6 {
+  margin:auto;
+  font-size: 0.8rem;
+}

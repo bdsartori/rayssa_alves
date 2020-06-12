@@ -5,15 +5,15 @@
   box-sizing: border-box;
 }
 
-/* Main Styling */
+
 html,body {
   font-family: "Raleway";
-  line-height: 1.7em;
+  line-height: 1.5em;
 }
 
 a {
   color: #333;
-  text-decoration: none;
+
 }
 body{
   background: #333;
@@ -27,8 +27,10 @@ p {
 .container {
   margin: 0 auto;
   max-width: 1600px;
-  overflow: auto;
+  width: auto;
+  overflow: hidden;
   padding: 0 20px;
+
 }
 
 .text-primary {
@@ -37,10 +39,10 @@ p {
 
 .btn {
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   color: #333;
   background: #f7c08a;
-  padding: 13px 20px;
+  padding: 10px 15px;
   border: none;
   cursor: pointer;
   border-radius: 10px;
@@ -56,32 +58,40 @@ p {
 }
 
 /* Nav-Bar */
-#nav-bar {
+header {
   background: #fde9e8;
   color: #333;
   overflow: auto;
+  height: 100px;
 }
 
 #nav-bar a {
   color: #333;
 }
 
-#nav-bar .logo {
+#nav-bar .container {
+  height: 100px;
+}
+
+.logo {
   float: left;
 }
 
-#nav-bar .logo img {
-  height: 100px;
+.logo img {
+  max-height: 100px;
+  height: auto;
   width: auto;
   cursor: pointer;
+  margin: auto 40px;
 }
 
 #nav-bar ul {
   list-style: none;
   float: right;
-  max-width: 1200px;
+  max-width: 1000px;
   width:auto;
-  height: 100px;
+  max-height: 100px;
+  height: auto;
   margin-bottom: 0;
 }
 
@@ -95,9 +105,10 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding:auto 15px;
-  font-size: 1.2em;
-  width: 150px;
+  padding:15px;
+  font-size: 0.9em;
+  max-width: 500px;
+  width: auto;
   height: 100px;
   text-decoration: none;
   overflow: auto;
@@ -112,41 +123,44 @@ p {
 /* Showcase */
 #showcase {
   background: url('../img/taça3.PNG');
-  background-position: center top;
+  background-position: center 10%;
   background-repeat: no-repeat;
   background-size: cover;
   filter: brightness(90%);
-  padding-top: 150px;
-  height: 900px;
+  padding-top: 80px;
+  height: 550px;
 }
 
 #showcase .showcase-content {
   text-align: center;
   padding: 10px;
   border-radius: 40px;
-  margin: 40px auto;
+  margin: 10px auto;
   max-width: 1000px;
   width: auto;
   background: rgba(252, 246, 234,0.8);
 }
 
 #showcase .showcase-content img {
-  padding: 60px;
-  width: 900px;
+  padding: 50px;
+  max-width: 1000px;
+  width: auto;
 }
 
 #showcase .showcase-content .subtitle {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #333;
   padding: 10px;
+  max-width: 1000px;
+  width: auto;
 }
 
 
 #showcase .showcase-content .saiba-mais {
-  padding: 30px;
-  margin: 20px;
+  padding: 15px;
+  margin-top: 10px;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 #showcase .showcase-content a:hover {
@@ -166,15 +180,18 @@ p {
   margin: 20px;
   color: #f7c08a;
   font-family: 'Sofia';
+  font-size: 2em;
 }
 
 #produtos h2 {
   display: flex;
-  margin:5px;
-  height: 80px;
+  margin:10px;
+  max-height: 80px;
+  height: auto;
   align-items: center;
   justify-content: center;
   color: #f7c08a;
+  font-size: 1em;
 }
 
 #produtos h3 {
@@ -183,6 +200,7 @@ p {
 
 #produtos p {
   color: #fff;
+  font-size: 0.8em;
 }
 
 
@@ -202,8 +220,10 @@ p {
 }
 
 .img-item {
-  max-width: 300px;
-  height: 300px;
+  max-width: 250px;
+  width: auto;
+  max-height: 250px;
+  height: 200px;
   margin: auto;
 }
 
@@ -218,7 +238,7 @@ p {
 }
 
 .item3 {
-  background: url('../img/taça1.PNG') no-repeat center center/cover;
+  background: url('../img/taça1.PNG') no-repeat center top/cover;
   border-radius: 5px;
 }
 
@@ -634,33 +654,35 @@ footer {
 
 #main-footer .contato-footer {
   color: #333;
-  margin-top: 20px;
-  padding: 30px;
+  margin-top: 10px;
+  padding: 20px;
 }
 
 #main-footer .midia {
   margin: auto;
-  width: 600px;
+  max-width: 600px;
+  width: auto;
+  text-align: center;
 }
 
 #main-footer h1 {
   text-align: center;
+  font-size: 1.8em;
 }
 
 #main-footer .img1 {
-  width: 90px;
+  width: 60px;
 }
 
 #main-footer .img2 {
-  width: 80px;
+  width: 50px;
 }
 
 #main-footer p {
-  font-size: 2em;
+  font-size: 1.3em;
 }
 
 #main-footer a:hover {
-  text-decoration: none;
   color: #333;
 }
 
@@ -670,5 +692,6 @@ footer {
 }
 
 .rodape h6 {
-  margin:auto
+  margin:auto;
+  font-size: 1em;
 }
